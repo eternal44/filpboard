@@ -1,0 +1,43 @@
+.nav {
+  border: grey; }
+  .nav li a:hover {
+    background-color: white; }
+  .nav li a {
+    font-size: 20px;
+    color: grey; }
+
+.header {
+  padding: 25px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: grey; }
+
+.hide {
+  display: none; }
+
+.main .active-display {
+  display: block; }
+.main .right-panel {
+  margin: 35px;
+  background-color: grey;
+  height: 400px;
+  width: 600px; }
+.main .left-panel {
+  margin: 35px;
+  height: 400px;
+  width: 425px; }
+  .main .left-panel h2 {
+    padding: 25px;
+    font-size: 60px; }
+  .main .left-panel p {
+    color: grey; }
+
+.carousel {
+  font-size: 25px; }
+  .carousel .glyphicon.glyphicon-one-fine-dot:before {
+    content: "\25cf";
+    font-size: 1.5em; }
+  .carousel a {
+    color: black; }
+
+/*# sourceMappingURL=style.css.map */
