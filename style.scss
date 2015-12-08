@@ -18,15 +18,9 @@
   border-bottom-color: grey;
 }
 
-.hide {
-  display: none;
-}
-
 .main{
 
-  .active-display{
-    display:block;
-  }
+  display: none;
 
   .right-panel{
     margin: 35px;
@@ -48,13 +42,22 @@
   }
 }
 
+.active-slide {
+  display: block;
+}
+
 .carousel{
   font-size: 25px;
-  .glyphicon.glyphicon-one-fine-dot:before {
-    content: "\25cf";
-    font-size: 1.5em;
+  a ul {
+    list-style:none;
+    display: inline-block;
+  }
+  .active-dot{
+    color: red;
   }
   a{
     color: black;
   }
+
 }
+
