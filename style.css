@@ -34,9 +34,13 @@
 
 .carousel {
   font-size: 25px; }
-  .carousel a ul {
+  .carousel ul {
+    padding-left: 0px; }
+  .carousel .slider-dots {
     list-style: none;
     display: inline-block; }
+    .carousel .slider-dots li {
+      display: inline; }
   .carousel .active-dot {
     color: red; }
   .carousel a {
