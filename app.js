@@ -22,7 +22,23 @@ var main = function(){
     nextDot.addClass('active-dot');
   });
 
+  $('.prev-arrow').click(function(){
+    var currentSlide = $('.active-slide');
+    var prevSlide = currentSlide.prev();
 
+    var currentDot = $('.active-dot');
+    var prevDot = currentDot.prev();
+
+    if(prevSlide.length === 0){
+      prevSlide = $('.main').last();
+      prevDot = $('.dot').last();
+    }
+    currentSlide.fadeOut(0).removeClass('active-slide');
+    prevSlide.fadeIn(800).addClass('active-slide');
+
+    currentDot.removeClass('active-dot');
+    prevDot.addClass('active-dot');
+  });
 };
 
 $(document).ready(main);
